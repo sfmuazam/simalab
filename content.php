@@ -62,9 +62,6 @@ if (isset($_GET['r'])) {
 	if ($key == 'inventaris') {
 		include 'modul\inventarisasi\inventaris.php';
 	}
-	if ($key == 'inventarisasi') {
-		include 'modul\inventarisasi\inventarisasi.php';
-	}
 	if ($key == 'edit_inventaris') {
 		include 'modul\inventarisasi\edit_inventaris.php';
 	}
